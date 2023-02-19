@@ -1,0 +1,388 @@
+body {
+  background-color: black;
+}
+.heading {
+  border: 2px solid #808080;
+  height: 135px;
+  color: white;
+  position: absolute;
+  top: 33px;
+  left: 41px;
+  right: 33px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.heading > span {
+  position: absolute;
+  left: 51px;
+  top: 38px;
+  font-size: 48px;
+  right: 1045px;
+  height: 58px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  line-height: 58px;
+  color: white;
+  display: block;
+  width: 567px;
+}
+
+.body-container {
+  color: white;
+  position: absolute;
+  height: 1103px;
+  top: 197px;
+  left: 41px;
+  right: 33px;
+  display: grid;
+  grid-template-columns: 1fr 2.2fr;
+  justify-content: space-between;
+  gap: 37px;
+}
+
+.left-body-container {
+  display: grid;
+  grid-template-rows: 311px 355px 306px;
+  gap: 40px;
+}
+
+.right-body-container {
+ 
+  border: 2px solid #808080;
+  border-radius: 20px;
+
+ 
+}
+
+.left1 {
+  border: 2px solid #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.left1 > img {
+  width: 190px;
+  height: 190px;
+  border-radius: 100px;
+}
+.left1 > span {
+  display: block;
+  width: 247px;
+  height: 29px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  line-height: 58px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.left2 {
+  border: 2px solid #808080;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.ordered-list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+.left3 {
+  border: 2px solid#808080;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding-left: 45px;
+
+}
+.left3 > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 20px;
+  align-items: center;
+}
+.left3 > div > span{
+  position: absolute;
+  left: 145px;
+ 
+width: 70px;
+height: 29px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #808080;
+}
+.link{
+
+width: 68px;
+height: 29px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.right-heading{
+  position: absolute;
+width: 864px;
+height: 58px;
+left: 624px;
+right: 498px;
+top: 59px;
+/* border: 2px solid red; */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+}
+.right-table{
+  box-sizing: border-box;
+  background-color:black; 
+  position: absolute;
+  width: 900px;
+  height: 874px;
+  left: 536px;
+  top: 158px;
+  right: 37px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  text-transform: uppercase;
+  border-collapse: collapse;
+  border-radius: 10px;
+  color: #808080;
+  /* border: 2px solid #808080; */
+
+}
+/* table{
+  
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 24px;
+line-height: 29px;
+
+
+text-transform: uppercase;
+border-collapse: collapse;
+border-radius: 10px;
+color: #808080;
+
+} */
+th, td {
+border: 1px solid #808080;
+border-radius: 20px;
+}
+/* th td{
+  border: 2px solid 
+  #808080;
+  border-radius: 20px;
+} */
+.num-table{
+text-align: center;
+vertical-align: centre;
+
+}
+.input-table{
+  text-align: center;
+  vertical-align: centre;
+  box-sizing: border-box;
+ 
+
+}
+.task-table{
+  text-align: center;
+  vertical-align: centre;
+}
+.idtop, .statustop , .tasktop{
+
+ font-size: 24px;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 1;
+  height: 25px;
+  width: 25px;
+  /* background-color: #eee; */
+  background-color: #808080;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+@media screen and (min-width: 1024px) {
+  .gfg-div {
+    background-color: #63c971;
+    color: #fff;
+  }
+}
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    color: black;
+  }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .gfg-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+  }
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: cyan;
+    color: black;
+  }
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: chartreuse;
+    color: black;
+  }
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    color: black;
+  }
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+    color: black;
+  }
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+    background-color: darkgoldenrod;
+    color: black;
+  }
+}
